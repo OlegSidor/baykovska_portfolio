@@ -1,0 +1,106 @@
+*{padding: 0;
+  margin: 0;
+}
+.loginform{
+  width: 60vw;
+  height: 50vh;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+.info{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.confirmbtn{
+  width: 100%;
+}
+#descbtn{
+  width: 100%;
+}
+.desc{
+  width:100%;
+  column-gap:11px;column-count:4;
+}
+.desc img{
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+ border: solid 1px black;
+}
+.info span{
+  display: inherit;
+}
+.loginform span{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.loginform input:not(#stay),.loginform button{
+  font-size: 15px;
+  min-height: 5.9vh;
+}
+.delete_list {
+  width:100%;
+  column-gap:11px;column-count:4;
+}
+.custom{
+  width:100%;
+}
+.save{
+  width: 100%;
+}
+.sortimg{
+width: 23%;
+height: 160px;
+margin: 5px;
+}
+#cstmbtn{
+  width: 100%;
+}
+.delete_list img{
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+ border: solid 1px black;
+}
+.adminform{
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-bottom: 50px;
+  font-size: 1.5vw;
+  background: #8d98c6;
+  padding: 10vw;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+.sel{
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+#folder{
+  width: 300px;
+}
+#exit{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#file{
+  padding: 0px;
+}
+#stay_label{
+  font-weight: normal;
+  font-size: 16px;
+}
+#stay{
+  margin-top: 11px;
+  margin-left: 5px;
+  margin-right: 10px;
+   transform:scale(1.5);
+}

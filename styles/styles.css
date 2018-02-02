@@ -1,0 +1,84 @@
+*{margin:0;padding:0;font-family:Luna;}
+body{min-height: 100vh;}
+.container{display:flex;flex-direction:row;justify-content:space-between;align-items:center;margin-top:30px;margin-bottom:20px;}
+.navigationbar{position:fixed;left:80px;top:300px;}
+.navigationbar img{width:30px;}
+.logo{position:fixed;left:40px;top:100px;}
+#normalize{opacity:0;height:0;}
+#hide-show{background:none;border:none;display:none;outline:none;margin-top:30px;}
+#hide-show img{width: 40px;}
+#menu{display:none;overflow:hidden;background-color:#ff8e87;text-align:center;}
+#menu li{padding-top:10px;padding-bottom:10px;border-bottom:solid 1px #ffa19b;}
+#menu li a{font-family:arial;color: white;font-weight:bold;font-size:18px; font-family:TOONY_LOONS;}
+#button{text-decoration:none;font-size:20px;line-height:30px;font-family:TOONY_LOONS;color:gray;}
+.social{margin-top:30px;}
+.social a{margin-right:5px;}
+#button:hover{text-decoration:none;font-size:22px;color:#ed8982;}
+#IRA{width:260px;}
+.navbar-buttons{display:flex;flex-direction:row;justify-content:space-around;flex-grow:2;}
+.navbar-buttons li a{font-size:5vw;}
+li{list-style-type:none;}
+.page-content{margin-top:70px; width: 100%;}
+.desc {z-index: 999;position: absolute;bottom: 10px;width: 85%;margin-left: 20px; font-size: 10px;}
+.main-container{width:1230px;margin:0 auto;display:flex;flex-direction:row;justify-content:space-between;}
+.main-pictures{width:397px;height:397px;`}
+.main-pictures:hover{width:397px;height:397px;filter:grayscale(80%);}
+.picture-container{display:flex;flex-direction:row;justify-content:space-between;float:left;}
+.cnt{margin-left:290px;padding:0;width:75%;column-gap:11px;column-count:4;}
+#content img:not(.loadimg){outline:none;display:block;margin-bottom:10px;width:100%;height:auto;display: none;}
+.load{width: 100px; margin: 0 auto;}
+.loadimg{width: 100px;}
+.gallery{display:none;position:fixed;padding:10px;border:1px solid #7c7c7c;background-color:#e0dede;border-radius:10px;}
+.top{border:1px solid #7c7c7c;z-index:99;}
+.images img{position:absolute;}
+.images img:not(.top){display:none !important;top:20px;}
+.navbuttns button{outline:none;background:none;border:none;}
+.navbuttns{position:absolute;height:100%;top:0;opacity:0;z-index:999;}
+.gallery *{user-select:none;}
+.next{width:60%;position:absolute;right:0px;height:100%;}
+.next button{float:right;}
+.back{width:40%;height:100%;}
+footer{clear: both; margin-top: 25px;}
+.main-footer{margin-bottom:40px;}
+.social-media{display:flex;flex-direction:row;justify-content:center;margin-bottom:5px;}
+.social-media-buttons{display:flex;flex-direction:row;width:500px;justify-content:space-between;}
+#button-footer{text-decoration:none;font-size:17px;color:#f58220;line-height:35px;}
+#button-footer:hover{text-decoration:none;font-size:19px;color:#f58220;}
+.copy-right{display:flex;flex-direction:row;justify-content:center;font-size:11px;color:#a9a3a1;}
+.copy-right span {font-family:TOONY_LOONS;}
+.social-mobile{display:none;}
+.gallery-bg{position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:rgba(0, 0, 0, 0.6);display:none;}
+@media (max-width:768px){.cnt{column-count:1} #button{color: black}
+.mob-desc {width: 70%;margin: 0 auto;text-align: center; display: none;}
+.mob-desc span{font-family:TOONY_LOONS; font-size: 12px;}
+.logo{position:relative;left:0;top:0;margin-top:25px;width:80%;}
+.social-mobile{display: grid;  float: right;  margin-right: 25px;margin-top: -100px;}
+.social-mobile img{width:35px;}
+.navigationbar{display:none;}
+.cnt{margin:0;width:90%;margin:0 auto;padding:0;column-count:0;}
+#hide-show{float:right;margin-right:20px;display:block;}}
+@media (max-width:425px){.cnt{column-count:1;}}
+
+
+/*ABOUT*/
+.about-cnt{margin-left: 230px;padding:0;}
+.desc-img img:last-child {margin-left: 20px;}
+.desc-img {width: max-content;margin: 0 auto;}
+.desc-img img{width: 400px;height: 400px;}
+.description{margin-bottom: 100px;}
+.description p{font-family:Roboto;font-size: 13px;}
+.end{width: 55%;float: left;}
+.description img{width: 18%;float: right;margin-right: 15%;}
+@media (max-width:768px) {
+.about-cnt{margin: 0 auto;}
+.desc-img img{float: none !important;}
+.desc-img img:last-child {margin-left: 0;}
+.description{float: none; width: 100%;}
+.description p{font-size: 16px;}
+.end{width: 100%; float: none !important;}
+.description img{display: none; margin: 0}
+}
+@media (max-width:1060px) {
+  .end{width: 100%; float: none !important;}
+  .description img{display: none; margin: 0}}
+/*ABOUT END*/

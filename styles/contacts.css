@@ -1,0 +1,15 @@
+main{margin-left:290px;padding:0;width:75%;}
+.content{width: 50%;margin: 0 auto;}
+.content img{width: 100%;}
+.contact-form{width: 100%;margin-bottom: 60px;}
+.form-input {font-weight: bold;font-family:TOONY_LOONS;font-size: 18px;color: #f57a5b;width: inherit;margin-bottom: 5px;background-color: #fee8dd; border: none;padding: 5px; resize: none;}
+::-webkit-input-placeholder{color: #e8927d;}
+.contact-form button{font-weight: bold; font-family:TOONY_LOONS;border: none;background-color: #d15d3c; padding: 5px; letter-spacing: 2px; padding-left: 10px; padding-right: 10px;color: white; float: right;}
+.contact-form button:disabled{opacity: 0.8;}
+#info span{font-weight: bold;font-family:TOONY_LOONS;font-size: 20px;}
+#info {margin: 0 auto;width: max-content;}
+@media (max-width: 768px) {
+main{margin: 0; width: 100%;}
+.content{width: 90%;}
+.contact-form button{margin-top: 20px;}
+}

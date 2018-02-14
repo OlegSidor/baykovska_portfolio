@@ -58,7 +58,7 @@
 <p>My career began with the doodles in my mom’s recipe books, when I was three-years-old. From there I moved to drawing on the walls in  my bedroom and then to the many notepads  that I made into my own books.</p>
 <p>In my twenties, I finally has discovered what I really wants to do with my life - create the whole new world with colors and lines. I love to illustrate books for children and I have created numerous children’s books so far. It always amazes me how words on paper become the whole new world that never existed before.</p>
 <div class="end"><p>I have a degree in Graphic Design  from Ukrainian academy of Printing.</p>
-<p>Currently I’m based in Lviv Ukraine.</p></div><img src="/images/ico.png" alt="">
+</div><img src="/images/ico.png" alt="">
 </div>
 		</div>
 </main>

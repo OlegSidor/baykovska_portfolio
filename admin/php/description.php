@@ -1,13 +1,14 @@
+<meta charset="utf-8">
 <?php
-session_start();
-if (isset($_POST)) {
-  if ($_SESSION["logined"]) {
-    $file = fopen("../../publication/description/".$_POST["name"].".txt","w");
-    fwrite($file,$_POST["text"]);
-    fclose($file);
+$mysqli = new mysqli("***","***","*","***");
+$mysqli -> query("SET NAME 'utf8'");
+$newdesc = $_POST["desc"];
+$src = $_POST["srcs"];
+for ($i=0; $i < count($newdesc); $i++) {
+  if(!$mysqli -> query("UPDATE `publication` SET `desctiption`='$newdesc[$i]' WHERE `src`='$src[$i]'")){
+    echo "Помилка при додаванні описання до $src[$i] <br>";
   }
-} else {
-  echo "Error.404";
 }
-
+echo "Описання успішно оновлено<br>";
+echo "<a href='/admin/'>Назад</a>";
 ?>
